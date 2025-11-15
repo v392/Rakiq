@@ -1,0 +1,280 @@
+body{
+  background: rgb(245, 245, 245);
+  margin: 0;
+  padding-top: 130px;
+}
+p{
+font-family: Arial;
+font-size: 14px;
+color: gray;
+text-align: center;
+line-height: 20px;
+}
+button {
+padding: 10px 105px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+transition: opacity, 0.1s;
+}
+button:hover {
+opacity: 0.85;
+}
+button:active {
+opacity: 0.79;
+}
+.price{
+font-size: 24px;
+color: black;
+margin-right: 6px;
+}
+.increase{
+color: green;
+}
+.decrease{
+color: red;
+}
+.priceText{
+text-align: center;
+}
+.searchBarParent{
+text-align: center;
+}
+.searchBar{
+display: inline-block;
+font-size: 20px;
+align-self: center;
+}
+.backButton{
+float: left;
+}
+.signUpForm{
+text-align: center;
+}
+.firstNameInput,.lastNameInput{
+border-radius: 5px;  
+border-color: darkgray;
+border-width: 1px;
+padding-left: 9px;
+line-height: 30px;
+width: 90px;
+margin-bottom: 9px;
+}
+.emailInput{
+border-radius: 5px;  
+border-color: darkgray;
+border-width: 1px;
+padding-left: 9px;
+line-height: 26.5px;
+width: 198px;
+margin-bottom: 9px;
+}
+.signUpButton{
+border: none;
+border-radius: 5px;
+line-height: 13.25px;
+padding-inline: 83px;
+}
+
+
+
+/*Profile Suggestion*/
+
+/*Divs*/
+.profileSuggestion{
+  display: inline-block;
+  width: 200px;
+  background: white;
+  margin-right: 10px;
+  p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+  }
+}
+.mutualPictureParent{
+  display: inline-block;
+  width: 30px;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+.mutualFriendsParent{
+  display: inline-block;
+  width: fit-content;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.profileNameParent{
+  margin-bottom: 4px;
+  margin-left: 6px;
+}
+
+/*Elements*/
+.profilePicture{
+  margin-bottom: 6px;
+  width: 200px;
+}
+.profileName{
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+.mutualPicture{
+  width: 30px;
+  border-radius: 100px;
+}
+.mutualFriends{
+  display: inline-block;
+}
+.addFriendButton{
+  line-height: 17px;
+  padding-inline:25px;
+  border-radius: 5px;
+  margin-left: 6px;
+  margin-bottom: 7px;
+}
+
+
+
+
+/*Profile Follow*/
+
+/*Divs*/
+
+.profileFollow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.PFSection1{
+  width: 200px;
+  margin-left: 30px ;
+  img{
+    border-radius: 100px;
+    width: 183px;
+  }
+}
+.PFSection2{
+  height: 200px;
+  flex: 1;
+  margin-left: 45px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.PFSection3{
+  width:400px;
+  height: 140px;
+  margin-right: 50px;
+  button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 85px;
+    text-align: center;
+    font-weight: 550;
+    padding: 0;
+    background-color: #007BFF;
+  }
+}
+.PFprofileName{
+  display: inline-block;
+  p{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+  }
+}
+.PFprofileDescription{
+  p{
+    font-size: 50px;
+  }
+}
+.PFprofilePopularity{
+  p{
+    font-size: 40px;
+    margin: 0;
+  }
+}
+.profileFollowParent{
+  margin-bottom: 35px;
+}
+
+
+
+
+/*Friend request section*/
+
+.friendRequestParent{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+
+.friendRequest{
+  display: flex;
+  flex-shrink: 0;
+  height: 130px;
+  align-items: center;
+  background-color: rgb(248, 247, 247);
+}
+
+.FRSection1{
+  padding-left: 50px;
+}
+
+.rakiqPfp{
+  height: 100px;
+  border-radius: 50px;
+}
+
+.FRSection2{
+  flex: 1;
+  margin-left: 25px;
+}
+
+.FRName{
+  font-size: 40px;
+  color: black;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 550;
+}
+
+.FRSection3{
+  width: 400px;
+  display: flex;
+  padding-right: 50px;
+}
+
+.acceptButton{
+  margin-right: 10px;
+}
+
+.declineButton{
+  background-color: rgb(216, 216, 216);
+  color: black;
+}
+
+.acceptButton,.declineButton{
+  flex:1;
+  border-radius: 10px;
+  padding-inline: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: 550;
+}
+
